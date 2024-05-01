@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <a href="#" class="header__logo">
+                   
+                </a>
+                <ul class="header__nav">
+                    <li>Exchange</li>
+                    <li>Testimonials</li>
+                    <li>Contacts</li>
+                    <li>Rules</li>
+                    <li>Warning</li>
+                </ul>
+                <div class="header__login">
+                    <a href="#">Register</a>
+                    <a href="#">Login 🚪</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main__circle"></div>
+            <section class="main__header">
+                <h1>New exchange request</h1>
+                <div>
+                    <a href="#" class="active">Main</a>
+                    <span>/</span>
+                    <a href="#">Exchange</a>
+                </div>
+            <article class="main__header-text">
+                    <div>
+                        <p>️ Processing time from 15 minutes to 180 minutes! The course is not fixed! We
+                            perform the exchange only after we contact you in Telegram,
+                            please provide valid contact information.</p>
+                    </div>
+            </article>
+            </section>
+            <section class="main__exchanger">
+                <article class="main__exchanger-content">
+                    <div class="main__coins">
+                        <ul class="main__exchanger-first">
+                            <span>You give 👉</span>
+                            <li class="main__coins-container">
+                                <div class="main__coins-left-container">
+                                    <span class="subtitle">Course: 1 USDT = 1 USD</span>
+                                    <div class="button-container">
+                                        <button id="crypto-button" class="cryptoBank-button">
+                                            
+                                        </button>
+                                        <ul class="crypto-list">
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="main__coins-right-container">
+                                    <span>min.: <span id="crypto-min">250 USDT</span></span>
+                                    <span>max.: <span id="crypto-max">5155.72 USDT</span></span>
+                                    <div class="exchange-amout">
+                                        <span>Amount*:</span>
+                                        <input id="crypto-input" placeholder="1">
+                                    </div>
+                                </div>
+                            </li>
+                            <span>You get 💰</span>
+                            <li class="main__coins-container">
+                                <div class="main__coins-left-container">
+                                    <div class="button-container">
+                                        <button id="bank-button" class="cryptoBank-button">
+
+                                        </button>
+                                        <ul class="banks-list">
+    
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                                <div class="main__coins-right-container">
+                                    <span>min.: 250 USDT</span>
+                                    <span>max.: 5155.72 USDT</span>
+                                    <div class="exchange-amout">
+                                        <span>Amount*:</span>
+                                        <input id="bank-input" placeholder="1">
+                                    </div>
+                                </div>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="personal-data">
+                        <span class="personal-data-header">Personal data</span>
+                        <ul class="personal-data-container">
+                            <li>
+                                <span>Card number:</span>
+                                <input id="card-input" class="info-input">
+                            </li>
+                            <li>
+                                <span>Country*:</span>
+                                <input id="country-input" class="info-input">
+                            </li>
+                            <li>
+                                <span>Email:</span>
+                                <input id="email-input" class="info-input">
+                            </li>
+                            <li>
+                                <span>Bank Name*::</span>
+                                <input id="bank-name-input" class="info-input">
+                            </li>
+                            <li>
+                                <span>IBAN*:</span>
+                                <input id="idan-input" class="info-input">
+                            </li>
+                            <li>
+                                <span>Telegram*:</span>
+                                <input id="telegram-input" class="info-input">
+                            </li>
+                            <li>
+                                <span>City*:</span>
+                                <input id="city-input" class="info-input">
+                            </li>
+                        </ul>
+                        <button id="sumbit-button" class="sumbit-button">Continue ✅</button>
+                        <div class="error-message">
+                            <span id="dates-error"></span>
+                        </div>
+                        <label class="check" >
+                            <input type="checkbox" class="real-chekbox">
+                            <span class="new-chekbox"></span>
+                            I have read and agree to the terms and conditions of the exchange and the AML verification rules
+                        </label>
+                        <label class="check">
+                            <input type="checkbox" class="real-chekbox">
+                            <span class="new-chekbox"></span>
+                            Do not memorize entered data
+                        </label>
+                    </div>
+                </article>
+            </section>
+            <section class="main__info-block">
+                <div>
+                    <h3>Exchange Tether TRC20 USDT to USD</h3>
+                    <span>There are a few steps you need to follow in order to exchange:</span>
+                    <div class="main__info-block-down-text">
+                        <p>Fill in all fields of the form provided. Click the "Exchange" button.<br>
+                            Familiarize yourself with the terms and conditions of the exchange services agreement, if you accept them, tick the appropriate box and click the button.
+                            If you accept them, check the appropriate box and click the button<br>
+                            "Create application" button.<br>
+                            Pay for the application.  To do this, make a transfer of the required amount,
+                            following the instructions on our website.<br>
+                            After performing the specified actions, the system will take you to the page
+"                           Request Status" page, where the status of your transfer will be indicated.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./image/mac.png">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-content">
+                <li>
+                    <img src="./image/logo.svg">
+                    <p>Our service provides reliable and
+                        favorable exchange terms,
+                        providing you with a high level
+                        efficiency. We've created a secure
+                        space to manage your
+                        your finances with maximum comfort.</p>
+                </li>
+                <li class="footer__li-center">
+                    <h3> Work schedule:</h3>
+                    <p>Mon. - Fri. from 12:00 to 23:00.
+                        Sat. - Wed. - Wed. free schedule.</p>
+                        <div class="footer-line"></div>
+                        <span><span>IMPORTANT</span>!<br>
+                            Requests created during non-working hours - will be
+                            will be processed according to the regulations of the exchange office.</span>
+                </li>
+                <li class="footer__li-end">
+                    <span>Information:</span>
+                    <ul>
+                        <li>Site Rules</li>
+                      
+                        <li>Site Rules</li>
+                        <li>AML/KYC</li>
+                        <li>Feedback</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="fixed-block">
+        <a href="#">
+            <span>Email us, we are online</span>
+        </a>
+    </div>
+    <script type="module" src="js/script.js"></script>
+    <script type="module" src="js/datainputs.js"></script>
+    <!-- <script  src="js/list.js"></script> -->
+</body>
+</html>
